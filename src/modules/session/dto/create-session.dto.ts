@@ -1,6 +1,6 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { IsString, IsUUID } from "class-validator";
-import CreateDto from "src/common/dto/create.dto";
+import CreateDto from "../../../common/dto/create.dto";
 
 class CreateSessionDto extends CreateDto {
   @ApiProperty()

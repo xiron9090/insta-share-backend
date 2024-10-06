@@ -1,5 +1,5 @@
 import { IsDate, IsNotEmpty, IsString, IsUUID } from "class-validator";
-import CreateDto from "src/common/dto/create.dto";
+import CreateDto from "../../../common/dto/create.dto";
 
 class CreateAccountDTO extends CreateDto {
   @IsString()

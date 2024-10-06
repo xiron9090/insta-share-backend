@@ -1,6 +1,6 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { IsEmail, IsString, IsStrongPassword } from "class-validator";
-import CreateDto from "src/common/dto/create.dto";
+import CreateDto from "../../../common/dto/create.dto";
 import CreateAccountDTO from "src/modules/account/dto/create-account.dto";
 
 class CreateUserDTO extends CreateDto {
